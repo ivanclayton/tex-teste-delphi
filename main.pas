@@ -30,13 +30,10 @@ var
   boeing : Aviao;
 begin
     porche := Carro.create('Porche 911');
-    porche.move(0);
-
     boeing := Aviao.create('Boeing 737');
-    boeing.move(0);
-
-
-     Application.Terminate;
+    porche.move(0);
+	boeing.move(0);
+    Application.Terminate;
 end;
 
 end.
